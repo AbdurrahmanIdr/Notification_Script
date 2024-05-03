@@ -1,5 +1,3 @@
-Certainly! Here's a README template tailored to the script we've been discussing:
-
 ---
 
 # Email Notification Script

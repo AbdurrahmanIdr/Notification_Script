@@ -66,7 +66,7 @@ def contents_extractor(filename):
         
 
 def split_rename(filename):
-    splitter = pdf_splitter('demo.pdf')
+    splitter = pdf_splitter(filename)
     foldername = filename.split('.')[0]
     if splitter:
         files = os.listdir(foldername)

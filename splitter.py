@@ -69,7 +69,8 @@ def split_rename(filename):
     splitter = pdf_splitter(filename)
     foldername = filename.split('.')[0]
     if splitter:
-        files = os.listdir(foldername)
+        folder = os.path.realpath(foldername)
+        files = os.listdir(folder)
         for file in files:
             contents_extractor(file)
             print('done')

@@ -74,5 +74,10 @@ def split_rename(filename):
         for file in files:
             contents_extractor(file)
             print('done')
+            
+            
+            
+filename = input('Please Enter path to PDF file: ')
+split_rename(filename)
         
     
